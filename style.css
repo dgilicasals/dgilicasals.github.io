@@ -1,0 +1,218 @@
+/*
+ * Theme Name: Sketchy Theme
+ * Theme URI: http://wordpress.org/extend/themes/sketchy
+ * Author: David Gili Casals
+ * Author URI: http://sketchingbits.com/
+ * Description: Simple and minimalistic HTML5 theme
+ * Version: 0.1
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: simple, minimalistic, responsive
+ * */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	color:	#444;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica, Arial;
+	font-size: 1.0em;
+	line-height: 1.6;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 820px; 
+}
+
+div.wrap {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 820px;
+}
+
+aside.left-nav {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+}
+
+section {
+	display: block;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 600px;
+}
+
+div#title {
+	font-size: 1.4em;
+	padding-bottom: 20px;
+}
+
+div#wordpress{
+	padding-top: 20px;
+}
+
+div.entry-content {
+	font-size: 1.2em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	max-width: 40em;
+}
+ 
+div.entry-content p {
+	max-width: 40em;
+}
+
+article {
+	padding-bottom: 60px;
+}
+
+h1 {
+	color: #9E2410;
+	font-size: 2.8em;
+	font-weight: bold;
+	line-height: 1.0;
+text-transform: uppercase;
+}
+
+a.title {
+	color: #005F6B;
+}
+
+div#wordpress a {
+	color: #005F6B;
+}
+
+h2 a {
+	color: #005F6B;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.0;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #78381E;
+}
+
+h4 {
+	color: #009DB0;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+p.entry-content {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.6em;
+	padding-top: 20px;
+}
+
+nav ul {
+	line-height: 1.0;
+    list-style-type: square;
+}
+
+nav li {
+	color: #005F6B;
+	font-size: 1.5em;
+	font-weight: bold;
+	list-style: none outside none;
+	margin: 0 0 0.8em;
+	text-transform: uppercase;
+}
+
+li.disabled {
+	color: #009DB0;
+}
+
+a {
+color: #9E2410; 
+text-decoration:none;
+}
+
+a:hover {
+color: #37A9B7;
+text-decoration:none;
+}
+
+ol {
+	padding-left: 30px;
+}
+
+element.style {
+	float: right;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-name-link {
+background: no-repeat left top;
+display: inline-block;
+min-height: 20px;
+padding-left: 20px;
+}
+
+#author {
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+
+#socialbar {
+	margin-top: 50px;
+}
+
+#socialbar li {
+	display: inline;
+	list-style: none outside none;
+}
+
+#wordpress {
+	font-size: 10px;
+} 
+
+li.disabled {
+    color: #009DB0;
+}
+
+p {
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+img.gallery {
+	display: inline-block;
+white-space: nowrap;
+}
+
+blockquote p {
+	left-padding: 20px;
+}
+
+

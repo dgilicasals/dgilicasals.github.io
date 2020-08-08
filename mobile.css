@@ -1,0 +1,31 @@
+body {
+	color: red;
+}
+
+aside.left-nav {
+	float: none;
+	width: 99%;
+}
+
+nav ul {
+	display: inline;
+}
+nav li {
+	display: inline;
+}
+
+section {
+	float: none;
+}
+
+#socialbar {
+	display: none;
+}
+
+#wordpress {
+	display: none;
+}
+
+.alignright {
+	display: none;
+}
